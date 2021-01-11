@@ -63,6 +63,7 @@ const blogLink = document.createElement("a");
 blogLink.textContent = "Blog";
 blogLink.href = "#";
 console.log("Bloglink: ", blogLink);
+document.querySelector("nav").appendChild(blogLink);
 
 // 👉 7- Making a copy of the card and appending it to the card group
 // DOM nodes can only exist in one spot in the DOM
