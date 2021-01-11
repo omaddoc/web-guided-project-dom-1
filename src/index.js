@@ -32,6 +32,11 @@ console.log(
 
 // 👉 3- Changing an element's text content
 //  A- Change the cat-related content into dog-related content
+
+// everything should be like this:
+
+cardText.textContent = "your new string";
+
 //  B- Have the students research online the difference between textContent and innerText
 
 // 👉 4- Changing any property
