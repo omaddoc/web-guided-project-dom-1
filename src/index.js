@@ -3,7 +3,7 @@
 //  Newer: querySelector, querySelectorAll
 //  Select the following single elements from the div.card
 
-// A- finding across the entire DOM
+// A- finding across the entire DOM (document = entire html document)
 const header = document.querySelector("header");
 const logoTitle = document.querySelector("#logoTitle");
 const firstCard = document.querySelector(".card");
