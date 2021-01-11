@@ -33,9 +33,11 @@ console.log(
 // 👉 3- Changing an element's text content
 //  A- Change the cat-related content into dog-related content
 
-// everything should be like this:
-
-cardText.textContent = "your new string";
+logoTitle.textContent = "Lambda Dog";
+titleFirstCard.textContent = "DOG TAKEOVER";
+subtitleFirstCard.textContent = "DOGZ RULE";
+textFirstCard.textContent = "Woof Woof Woof, Bark Bark Bark, GRrr Grrrrr";
+link2FirstCard.textContent = "Dog Ipsum";
 
 //  B- Have the students research online the difference between textContent and innerText
 
