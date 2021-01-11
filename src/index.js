@@ -20,7 +20,7 @@ const link2FirstCard = link1FirstCard.nextElementSibling;
 // A- Find all the anchor tags inside the nav element
 const links = document.querySelectorAll("nav a");
 // B- Loop over the links and console.log their text content
-links.forEach((link) => console.log(link.textContent));
+links.forEach((link) => console.log("elements: ", link.textContent));
 // C- Turn the collection of links into a real array
 const linksRealArray = Array.from(links);
 console.log("Real Array: ", linksRealArray);
