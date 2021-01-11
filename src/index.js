@@ -44,7 +44,8 @@ link2FirstCard.textContent = "Dog Ipsum";
 // 👉 4- Changing any property
 //  A- Using dot notation to change a few attributes
 logoTitle.className = "heading logo banana";
-console.log(logoTitle);
+imageFirstCard.src =
+  "https://herepup.com/wp-content/uploads/2015/12/Dog-Advice-1-1.jpg";
 //  B- Using .setAttribute to change a few attributes
 
 // 👉 5- Changing the styling of an element
