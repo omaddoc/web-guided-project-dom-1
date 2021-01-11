@@ -24,7 +24,8 @@ links.forEach((link) => console.log("elements: ", link.textContent));
 // C- Turn the collection of links into a real array
 const linksRealArray = Array.from(links);
 console.log("Real Array: ", linksRealArray);
-// D- Use .filter to find the anchor tag with the textContent of "Home"
+// D- Use .find to find the anchor tag with the textContent of "Home"
+linksRealArray.find((link) => link.textContent === "Home");
 
 // 👉 3- Changing an element's text content
 //  A- Change the cat-related content into dog-related content
