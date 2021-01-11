@@ -73,4 +73,7 @@ document.querySelector(".card-group").appendChild(secondCard);
 
 // 👉 8- Removing an existing element and putting it back [STRETCH if time allows]
 
+header.remove();
+document.body.prepend(header);
+
 // 👉 9- Show to students the insertAdjacentHTML method [STRETCH if time allows]
